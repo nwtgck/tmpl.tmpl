@@ -1,0 +1,10 @@
+# {{`
+variables:
+ project_name: ""
+ description: ""
+#`}}
+# {{- /*
+variables:
+ tmpl_name: ""
+ tmpl_description: ""
+# */ -}}
