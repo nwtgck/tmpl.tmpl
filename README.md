@@ -1,5 +1,6 @@
 {{- /* **NOTE: This  template comment will be removed by [`tmpl`].**
 # tmpl.tmpl
+[![Build Status](https://travis-ci.com/nwtgck/tmpl.tmpl.svg?branch=master)](https://travis-ci.com/nwtgck/tmpl.tmpl)
 
 Template of Template
 
