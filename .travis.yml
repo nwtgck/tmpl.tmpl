@@ -1,0 +1,11 @@
+sudo: false
+install:
+  # Install tmpl
+  - go get -u github.com/nwtgck/tmpl
+script: 
+  # Create template from this template
+  - |
+    tmpl fill --fill-yaml="{tmpl_name: mytmpl, tmpl_description: 'My Template'"
+  # Create project from generated template
+  - |
+    tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project'"
