@@ -5,7 +5,7 @@ install:
 script: 
   # Create template from this template
   - |
-    tmpl fill --fill-yaml="{tmpl_name: mytmpl, tmpl_description: 'My Template'"
+    tmpl fill --fill-yaml="{tmpl_name: mytmpl, tmpl_description: 'My Template'}"
   # Create project from generated template
   - |
-    tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project'"
+    tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project'}"
